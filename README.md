@@ -1,5 +1,6 @@
 A python script that converts questions in json format like below:
 
+```
 {
   "question": "A flashing red traffic light signifies that a driver should do what?",
   "A": "stop",
@@ -8,6 +9,7 @@ A python script that converts questions in json format like below:
   "D": "honk the horn",
   "answer": "A"
 }
+```
 
 into csv format matching Actions on Google's [Multiple Choice
 spreadsheet](https://docs.google.com/spreadsheets/d/1lVQGbviQlHwNYALsajtTqj1lt_lgswV_MykiT1ug4vo/edit?usp=sharing)
@@ -18,4 +20,5 @@ and is used to create [Random
 Trivia](https://assistant.google.com/services/a/uid/00000051254c46ed?hl=en) app
 on Google Assistant. 
 
-# Usage: convert_json_action_csv.py input.json [output_file_name]
+# Usage: 
+`convert_json_action_csv.py input.json [output_file_name]`
